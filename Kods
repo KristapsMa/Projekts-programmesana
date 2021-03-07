@@ -1,14 +1,14 @@
-S=int(input("Cik lielu distanci tu noskrçji, metros?"))
-T=int(input("Cik ilgâ laikâ noskrçji, minûtçs?"))
+S=int(input("Cik lielu distanci tu noskrÃ§ji, metros?"))
+T=int(input("Cik ilgÃ¢ laikÃ¢ noskrÃ§ji, minÅ±tÃ§s?"))
 t=T*60
 V=S/t
-Ç=int(input("Cik çdienreizes tev ir bijuğas?"))
-ç=3-Ç
-M=int(input("Cik stundas miega tu gulçji pagâğnakt?"))
-print ("Tavs âtrums ir %.2f"% V,"metri sekundç.")
-if ç==3: print("Tev ğodien ir jâbût vçl 3 çdienreizçm.")
-elif ç==2: print("Tev ğodien ir jâbût vçl 2 çdienreizçm.")
-elif ç==1: print("Tev ğodien ir jâbût vçl 1 çdienreize.")
-else: print ("Tev ğodien nav vairs neviena çdienreize.")
-if 10>=M>=8: print ("Malacis! Vari turpinât tik ilgi gulçt.")
-elif M<=8: print ("Tev jâiet laicîgâk gulçt.")
+Ã‡=int(input("Cik Ã§dienreizes tev ir bijuÄ‘as?"))
+Ã§=3-Ã‡
+M=int(input("Cik stundas miega tu gulÃ§ji pagÃ¢Ä‘nakt?"))
+print ("Tavs Ã¢trums ir %.2f"% V,"metri sekundÃ§.")
+if Ã§==3: print("Tev Ä‘odien ir jÃ¢bÅ±t vÃ§l 3 Ã§dienreizÃ§m.")
+elif Ã§==2: print("Tev Ä‘odien ir jÃ¢bÅ±t vÃ§l 2 Ã§dienreizÃ§m.")
+elif Ã§==1: print("Tev Ä‘odien ir jÃ¢bÅ±t vÃ§l 1 Ã§dienreize.")
+else: print ("Tev Ä‘odien nav vairs neviena Ã§dienreize.")
+if 10>=M>=8: print ("Malacis! Vari turpinÃ¢t tik ilgi gulÃ§t.")
+elif M<=8: print ("Tev jÃ¢iet laicÃ®gÃ¢k gulÃ§t.")
